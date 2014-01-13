@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title>Nobody's 2014 blog</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <link href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="http://files.cnblogs.com/nobody1/infine.css" rel="stylesheet" />
+    <link href="http://files.cnblogs.com/nobody1/font.css" rel="stylesheet" />
+</head>
+<body data-spy="scroll" data-target=".main-navigation">
+    <audio autoplay="autoplay" loop="loop" src="http://qzone.djsoso.com/mp3/7A0790C58D6F48C6FE627C9EC13C72F2-39212/www.haoduoge.com.mp3"></audio>
+    <div id="loading-start" class="loading-start">
+        <div id="loading_show">
+            <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_loading.gif" />哥在努力加载中,请等待......
+        </div>
+    </div>
+    <div id="navigation" class="navigation">
+        <div class="navbar navbar-fixed-top">
+            <div class="container">
+                <div class="logo">
+                    <a href="http://jsbin.com/nobody">nobody.com</a>
+                </div>
+                <div class="main-navigation">
+                    <ul class="nav">
+                        <li class="active"><a href="#navigation">首页</a></li>
+                        <li><a href="#context">行者无疆</a></li>
+                        <li><a href="#fight">战斗指数</a></li>
+                        <li><a href="#declaration">建站宣言</a></li>
+                        <li><a href="#place">联系方式</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="bannercontainer responsive">
+        <div class="banner">
+            <ul>
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="300" >
+                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-1.jpg" >
+                    <div class="caption sfr caption-main" data-x="center" data-y="150" data-speed="900" data-start="0" data-easing="easeOutBack" fullwidthcentering="on">
+                       <div class="header-item">
+                           <div>
+                               <h1>Welcome, My Friends!</h1>
+                               <h4>Hi， 欢迎来到我的的网上家园，期待与您敞心交流，共勉共进!</h4>
+                           </div>
+                       </div>
+  
+                       <div class="countdown wrapper">
+                           <div class="countdown-container sl-slider">
+                               <div class="header-wel">
+                                    <h2><img id="myHead" class="myHead" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_head.jpg"></h2>
+                                    <blockquote>
+                                        <h3 data-i18n="conf-date" lang="zh-cn">{"name":"nobody"}</h3>
+                                        <p data-i18n="conf-tagline" lang="zh-cn">浮世滔,人情渺,千古纷争何时了？江湖远，碧空长，几度凋零试锋芒...</p>
+                                    </blockquote>
+                                </div>
+                           </div>
+                       </div>
+                    </div>
+                </li>
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
+                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-2.jpg" >
+                    <div class="caption sfr caption-main" data-x="center" data-y="150" data-speed="900" data-start="0" data-easing="easeOutBack">
+                        <div class="header-item">
+                            <div>
+                                <h1>More power,More responsibility</h1>
+                                <h3 class="text-center pt10">tommorrow is another day? maybe,just keep moving…</h3>
+                            </div>
+                        </div>
+
+                        <div class="pt10 text-center">
+                            <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_season.png" alt="">
+                        </div>
+                    </div>
+                </li>
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
+                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-3.jpg" >
+                    <div class="caption sfr caption-main" data-x="center" data-y="300" data-speed="900" data-start="0" data-easing="easeOutBack">
+                        <div class="header-item">
+                            <div>
+                                <h1>未完待续<br/><br/>敬请关注...</h1>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="caption randomrotate" data-x="750" data-y="250" data-speed="300" data-start="1100" data-easing="easeOutExpo">
+                        <div class="last-seats">
+                            <a href="#" class="roll" target="_blank"><p>感谢您的支持<br><br>我会做的更好</p></a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+            <div class="tp-bannertimer"></div>
+        </div>
+    </div>
+
+    <div class="some_btn">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2 text-center">
+                    <a href="http://weibo.com/nobody005" target="_blank" class="btn btn-primary btn-lg mr30">
+                        <strong>我的微博</strong>
+                    </a>
+                    <a href="http://t.qq.com/nobodywhy" target="_blank" class="btn btn-danger btn-lg">
+                        <strong>我的微博</strong>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="features">
+        <div class="features-container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 col-sm-4 orange">
+                        <div class="row">
+                            <div class="background-icon col-md-3 col-sm-3">
+                                <i class="icon icon-file"></i>
+                            </div>
+                            <div class="col-md-9 col-sm-9 text">
+                                <h3>Front-End Developer</h3>
+                                <p>无形于html，泼毫css间，驰骋于javascript新天地...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 blue">
+                        <div class="row">
+                            <div class="background-icon col-md-3 col-sm-3">
+                                <i class="icon icon-book"></i>
+                            </div>
+                            <div class="col-md-9 col-sm-9 text">
+                                <h3>Pythonic Fans</h3>
+                                <p>贯彻落实python八荣八耻，走有和谐社会主义特色的python之路...</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 yellow">
+                        <div class="row">
+                            <div class="background-icon col-md-3 col-sm-3">
+                                <i class="icon icon-bookmark-empty"></i>
+                            </div>
+                            <div class="col-md-9 col-sm-9 text">
+                                <h3>PHP Rookie</h3>
+                                <p>那个谁说了，PHP是世界上最好的语言...</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="context" class="context">
+        <div class="container">
+            <div class="text-center">
+                <h2>要么读书,要么旅行,精神和肉体,必须有一个在路上...</h2>
+                <h4>好读书 不求甚解 每有会意 便欣然忘食</h4>
+            </div>
+            <div class="speakers">
+                <ul class="nav nav-tabs">
+                    <li class="active">
+                        <a href="#tab-1" data-toggle="tab">2014关注的事</a>
+                    </li>
+                    <li>
+                        <a href="#tab-2" data-toggle="tab">2014推荐的电影</a>
+                    </li>
+                </ul>
+                <div class="tab-content">
+                    <div class="tab-pane fade active in" id="tab-1">
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_nodejs.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">Nodejs</p>
+                                <p class="company">相对于过去几年的概念推广，2013注定是<a target="_blank" href="http://nodejs.org/">nodejs</a>追随者大爆发的一年</p>
+                                <p class="title">基于Chrome V8的服务端JS</p>
+                                <p class="times">关注指数:<span class="times_num">5</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 nodejs</h4>
+                                    <p>Node.js是一个可以快速构建网络服务及应用的平台。该平台的构建是基于Chrome's JavaScript runtime(V8引擎)，V8引擎本身使用了一些最新的编译技术。这使得用Javascript这类脚本语言编写出来的代码与用C这类高级语言写出来的代码性能相差无几，却节省了开发成本。由于Javascript是一个事件驱动语言，Node利用了这个优点，编写出可扩展性高的服务器，采用了一个称为“事件循环(event loop）”的架构，使得编写可扩展性高的服务器变得既容易又安全。提高服务器性能的技巧有多种多样。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_angularjs.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">Angularjs</p>
+                                <p class="company"><a href="http://www.angularjs.org/" target="_blank">AngularJS</a>通过为开发者呈现一个更高层次的抽象来简化应用的开发。</p>
+                                <p class="title">使用angularjs开发下一代web应用</p>
+                                <p class="times">关注指数:<span class="times_num">5</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 Angularjs</h4>
+                                    <p>AngularJS是为了克服HTML在构建应用上的不足而设计的,AngularJS使用了自己的方法，它尝试去补足HTML本身在构建应用方面的缺陷，通过使用我们称为标识符(directives)的结构，让浏览器能够识别新的语法。AngularJS试图成为WEB应用中的一种端对端的解决方案。这意味着它不只是你的WEB应用中的一个小部分，而是一个完整的端对端的解决方案。这会让构建一个CRUD应用可能用到的全部内容包括：数据绑定、基本模板标识符、表单验证、路由、深度链接、组件重用、依赖注入等均可通过angularjs实现。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_monggodb.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">MongoDB</p>
+                                <p class="company"><a href="http://www.mongodb.org/" target="_blank">MongoDB</a>是一个基于分布式文件存储的数据库。由C++语言编写。旨在为WEB应用提供可扩展的高性能数据存储解决方案。</p>
+                                <p class="title">简单易用跨平台，面向集合型的数据库</p>
+                                <p class="times">关注指数:<span class="times_num">4</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 MongoDB</h4>
+                                    <p>MongoDB是一个介于关系数据库和非关系数据库之间的产品，是非关系数据库当中功能最丰富，最像关系数据库的。他支持的数据结构非常松散，是类似json的bson格式，因此可以存储比较复杂的数据类型。Mongo最大的特点是他支持的查询语言非常强大，其语法有点类似于面向对象的查询语言，几乎可以实现类似关系数据库单表查询的绝大部分功能，而且还支持对数据建立索引。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_django.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">Django</p>
+                                <p class="company"><a href="https://www.djangoproject.com/" target="_blank">Django</a>是一个开放源代码的Web应用框架，由Python写成。采用了MVC的软件设计模式.</p>
+                                <p class="title">基于python的功能强大的的web开发框架</p>
+                                <p class="times">关注指数:<span class="times_num">4</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 Django</h4>
+                                    <p>Django是一个开放源代码的Web应用框架，由Python写成。采用了MVC的软件设计模式，它最初是被开发来用于管理劳伦斯出版集团旗下的一些以新闻内容为主的网站的。并于2005年7月在BSD许可证下发布。Django的主要目标是使得开发复杂的、数据库驱动的网站变得简单。Django注重组件的重用性和“可插拔性”，敏捷开发和DRY法则。在Django中Python被普遍使用，甚至包括配置文件和数据模型。Django于2008年6月17日正式成立基金会。</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_bootstrap.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">Bootstrap</p>
+                                <p class="company">简洁、直观、强悍的前端开发框架，<a href="http://www.bootcss.com/" target="_blank">Bootstrap</a>让web开发更迅速、简单。</p>
+                                <p class="title">来自twitter的web界面快速开发工具包</p>
+                                <p class="times">关注指数:<span class="times_num">4</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 Bootstrap</h4>
+                                    <p>Bootstrap是Twitter推出的一个用于前端开发的开源工具包。它由Twitter的设计师Mark Otto和Jacob Thornton合作开发，是一个CSS/HTML框架。目前，Bootstrap最新版本为3.0 ,也是目前github上最火的项目之一</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_coffeescript.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">Coffeescript</p>
+                                <p class="company"><a href="http://www.coffeescript.org/" target="_blank">CoffeeScript</a>构建在JavaScript上层，将类似Ruby语法的代码编译成JavaScript</p>
+                                <p class="title">一种更优雅更强大的编程语言</p>
+                                <p class="times">关注指数:<span class="times_num">4</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 Coffeescript</h4>
+                                    <p>CoffeeScript提供了一种简洁的语法，应该会吸引到那些喜欢Python或是Ruby的人。其还提供了许多由诸如Haskell和Lisp一类的语言启发而来函数式编程功能。CoffeeScript被编译成高效的JavaScript，除了在web浏览器中运行这些JavaScript之外，你还可以与诸如用于服务器端应用的Node.js一类的技术来一起使用它，编译过程通常都很简单，产生出来的JavaScript与许多的最佳做法都保持了一致。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="parallax">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <span class="parallax-title">没有注定的命运 只有抗争出来的明天</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="fight" class="container fight">
+        <div class="row">
+            <h2 class="text-center">战斗指数</h2>
+            <div class="col-md-10 col-md-offset-2">
+                <table class="table table-hover table-bordered">
+                    <thead>
+                    <tr>
+                        <th colspan="2">分类</th>
+                        <th colspan="2">内容</th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td rowspan="6">FE-Dev</td>
+                            <td>base</td>
+                            <td colspan="2">熟悉主流Web浏览器的开发模式和特性，熟练书写符合W3C标准的html结构和CSS层叠样式表</td>
+                        </tr>
+                        <tr>
+                            <td>Javascript</td>
+                            <td colspan="2">了解原生javascript中的作用域、闭包和活动对象上下文，dom遍历，prototype的原型链继承和ajax技术的基本应用</td>
+                        </tr>
+                        <tr>
+                            <td>libs&amp;framework</td>
+                            <td colspan="2">
+                                能熟练使用jQuery，undercore和tangram库并了解其内部构成和扩展机制，了解Boostrap，Ext，YUI，Backbone，Angularjs，requiresjs，quint，jade等各主流框架的使用技巧
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>html5</td>
+                            <td colspan="2">
+                                了解html5中新增属性和方法的使用，了解CSS3新特性的使用和渐进增强原则，较熟练使用canvas，localstorage，websockets，geolcation，filesystem，svg，vedio/audio等使用技巧
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>webapp</td>
+                            <td colspan="2">了解响应式设计的基本原则与实现，熟练使用zepto，jquery
+                                mobile等移动平台的界面框架，了解phonegap的环境配置和使用技巧，能在移动开发环境中(ios Xcode)进行webapp的开发
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>nodejs</td>
+                            <td colspan="2">了解nodejs的环境布置，开发和调试的整体流程，熟悉express，了解socket.io，熟练使用sublime和webstorm等工具进行相关开发，了解npm的使用，了解coffeescript，less等基于nodejs的前端预编译语言使用,了解grunt的自动构建工具的用法
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="3">PHP</td>
+                            <td>base</td>
+                            <td colspan="2">了解PHP+MYSQL编程，了解php的面向对象编程，熟悉php的模板(smarty)编程</td>
+                        </tr>
+                        <tr>
+                            <td>database</td>
+                            <td colspan="2">熟悉MYSQL数据库开发，配置、维护、性能优化，了解mongodb和sqlite的一般使用
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>libs&amp;framework</td>
+                            <td colspan="2">了解thinkPHP，Yii等PHP经典MVC框架的使用和配置，了解wordpress的基本开发
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td rowspan="3">Python</td>
+                            <td>base</td>
+                            <td colspan="2">了解Python的语法结构以及常用库，能基本使用各种Python标准库</td>
+                        </tr>
+                        <tr>
+                            <td>libs&amp;framework</td>
+                            <td colspan="2">了解HTTP协议，能基于Django进行相关web开发
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div id="declaration" class="container declaration">
+        <div class="row">
+            <h2>建站宣言</h2>
+            <div class="col-md-2 col-sm-2 image-container">
+                <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_gdg-logo.png" />
+            </div>
+            <div class="col-md-6 col-sm-6 text">
+                <p>本站开发主要采用html5+php+bootstrap组合技术，日后也会尽可能成为尝试不同web新技术的试验平台，html5被W3C誉为是"开放的Web网络平台的奠基石"，相信随着各大浏览器厂商的逐步跟进，它在未来的发展前途会越来越好，精彩不断。</p>
+            </div>
+        </div>
+    </div>
+    <hr />
+    <div id="place">
+        <div class="container place">
+            <div class="row">
+                <h2>广州高频出没地</h2>
+                <ul>
+                    <li class="col-md-4 col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_tiyu.jpg" />
+                            </a>
+                            <h3>体育中心</h3>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_fangcun.jpg" />
+                            </a>
+                            <h3>芳村</h3>
+                        </div>
+                    </li>
+                    <li class="col-md-4 col-sm-4">
+                        <div class="thumbnail">
+                            <a href="#">
+                                <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_yihaoxian.jpg" />
+                            </a>
+                            <h3>地铁一号钱</h3>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container help">
+            <div class="row">
+                <h2>感谢以下伴随我一道成长的小伙伴们</h2>
+                <ul>
+                    <li class="col-md-3 col-sm-3">
+                        <a href="https://github.com/" target="_blank">
+                            <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_github.jpg" />
+                        </a>
+                    </li>
+                    <li class="col-md-3 col-sm-3">
+                        <a href="http://www.acfun.tv/" target="_blank">
+                            <img class="lazy height122" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_acfun.jpg" />
+                        </a>
+                    </li>
+                    <li class="col-md-3 col-sm-3">
+                        <a href="http://www.dytt8.net/" target="_blank">
+                            <img class="lazy height122" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_dianying.gif" />
+                        </a>
+                    </li>
+                    <li class="col-md-3 col-sm-3">
+                        <a href="http://jquery.com/" target="_blank">
+                            <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://taikongfeizhu.com/assets/img/jqschool.jpg" />
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="foot">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5">
+                    <h2>联系方式</h2>
+                    <address>
+                        <i class="icon icon-time"></i>
+                        <strong>当前版本</strong>
+                        <p>Beta V 1.0</p>
+                    </address>
+                    <address>
+                        <i class="icon icon-home"></i>
+                        <strong>常居地址</strong>
+                        <p>广州天河区体育西路</p>
+                    </address>
+                    <address>
+                        <i class="icon icon-mobile-phone"></i>
+                        <strong>联系方式</strong>
+                        <p>微博：@nobody005</p>
+                        <p>邮箱：411298027@qq.com</p>
+                    </address>
+                </div>
+                <div class="col-md-7">
+                    <iframe width="100%" height="350px" frameborder="0" scrolling="no" src="http://jsbin.com/nobodymap"></iframe>
+                    <address class="showmap">
+                        <i class="icon icon-map-marker"></i>
+                        <a href="http://j.map.baidu.com/p3sQp" target="_blank" class="btn btn-grey">在百度地图上显示</a>
+                    </address>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9 text">
+                    ©  2014自豪地采用
+                    <a href="http://www.bootcss.com/" target="_blank">Bootstrap</a>
+                </div>
+                <div class="myicon">
+                    <div class="ercodeBox">
+                        <a id="weixin" href="javascript:;" class="social-icon">
+                            <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_weixin.png" />
+                        </a>
+                        <div class="ercode-contains">
+                            <div class="ercode-pic">
+                                <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_weixin.jpg" />
+                            </div>
+                            <div class="ercode-arrow"></div>
+                        </div>
+                    </div>
+                    <div class="ercodeBox">
+                        <a id="weibo" href="javascript:;" class="social-icon">
+                            <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_weibo.png" />
+                        </a>
+                        <div class="ercode-contains">
+                            <div class="ercode-pic">
+                                <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_sina.png" />
+                            </div>
+                            <div class="ercode-arrow"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="http://cdn.bootcss.com/jquery/2.0.3/jquery.js"></script>
+    <script src="http://files.cnblogs.com/nobody1/jquery.themepunch.revolution.js"></script>
+    <script src="http://cdn.bootcss.com/jquery.hoverintent/2013.03.11/hoverintent.js"></script>
+    <script src="http://cdn.bootcss.com/jquery.nicescroll/3.5.1/jquery.nicescroll.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-parallax/1.1.3/jquery-parallax-min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery.lazyload/1.9.0/jquery.lazyload.min.js"></script>
+    <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <script src="http://cdn.bootcss.com/jquery-scrollTo/1.4.7/jquery.scrollTo.min.js"></script>
+    <script src="http://files.cnblogs.com/nobody1/jquery.localscroll-1.2.7-min.js"></script>
+    <script src="http://files.cnblogs.com/nobody1/infine.js"></script>
+  <script type="text/javascript">
+      var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+      document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Feb69e6469eea38aa518bc59d627b5e4b' type='text/javascript'%3E%3C/script%3E"));
+</script>
+
+</body>
+</html>
