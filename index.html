@@ -1,66 +1,71 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title>Nobody's 2014 blog</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-    <link href="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" />
-    <link href="http://files.cnblogs.com/nobody1/infine.css" rel="stylesheet" />
-    <link href="http://files.cnblogs.com/nobody1/font.css" rel="stylesheet" />
+    <link href="styles/bootstrap.css" rel="stylesheet" />
+    <link href="styles/font.css" rel="stylesheet" />
+    <link href="styles/infine.css" rel="stylesheet" />
 </head>
-<body data-spy="scroll" data-target=".main-navigation">
-    <audio autoplay="autoplay" loop="loop" src="http://qzone.djsoso.com/mp3/7A0790C58D6F48C6FE627C9EC13C72F2-39212/www.haoduoge.com.mp3"></audio>
+<body data-spy="scroll" data-target=".navbar">
+    <!--<audio autoplay="autoplay" loop="loop" src="http://qzone.djsoso.com/mp3/7A0790C58D6F48C6FE627C9EC13C72F2-39212/www.haoduoge.com.mp3"></audio>-->
     <div id="loading-start" class="loading-start">
         <div id="loading_show">
             <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_loading.gif" />哥在努力加载中,请等待......
         </div>
     </div>
-    <div id="navigation" class="navigation">
-        <div class="navbar navbar-fixed-top">
-            <div class="container">
-                <div class="logo">
-                    <a href="http://jsbin.com/nobody">nobody.com</a>
-                </div>
-                <div class="main-navigation">
-                    <ul class="nav">
-                        <li class="active"><a href="#navigation">首页</a></li>
-                        <li><a href="#context">行者无疆</a></li>
-                        <li><a href="#fight">战斗指数</a></li>
-                        <li><a href="#declaration">建站宣言</a></li>
-                        <li><a href="#place">联系方式</a></li>
-                    </ul>
-                </div>
+    <nav id="navigation" class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse">
+                    <span class="sr-only">展开</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#">Nobody.com</a>
+            </div>
+
+            <div class="collapse navbar-collapse" id="#navigation">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#navigation">首页</a></li>
+                    <li><a href="#context">行者无疆</a></li>
+                    <li><a href="#fight">战斗指数</a></li>
+                    <li><a href="#declaration">建站宣言</a></li>
+                    <li><a href="#place">联系方式</a></li>
+                </ul>
             </div>
         </div>
-    </div>
+    </nav>
     <div class="bannercontainer responsive">
         <div class="banner">
             <ul>
-                <li data-transition="fade" data-slotamount="1" data-masterspeed="300" >
-                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-1.jpg" >
+                <li data-transition="fade" data-slotamount="1" data-masterspeed="300">
+                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-1.jpg">
                     <div class="caption sfr caption-main" data-x="center" data-y="150" data-speed="900" data-start="0" data-easing="easeOutBack" fullwidthcentering="on">
-                       <div class="header-item">
-                           <div>
-                               <h1>Welcome, My Friends!</h1>
-                               <h4>Hi， 欢迎来到我的的网上家园，期待与您敞心交流，共勉共进!</h4>
-                           </div>
-                       </div>
-  
-                       <div class="countdown wrapper">
-                           <div class="countdown-container sl-slider">
-                               <div class="header-wel">
+                        <div class="header-item">
+                            <div>
+                                <h1>Welcome, My Friends!</h1>
+                                <h4>Hi， 欢迎来到我的的网上家园，期待与您敞心交流，共勉共进!</h4>
+                            </div>
+                        </div>
+
+                        <div class="countdown wrapper">
+                            <div class="countdown-container sl-slider">
+                                <div class="header-wel">
                                     <h2><img id="myHead" class="myHead" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_head.jpg"></h2>
                                     <blockquote>
                                         <h3 data-i18n="conf-date" lang="zh-cn">{"name":"nobody"}</h3>
                                         <p data-i18n="conf-tagline" lang="zh-cn">浮世滔,人情渺,千古纷争何时了？江湖远，碧空长，几度凋零试锋芒...</p>
                                     </blockquote>
                                 </div>
-                           </div>
-                       </div>
+                            </div>
+                        </div>
                     </div>
                 </li>
                 <li data-transition="fade" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb5.jpg">
-                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-2.jpg" >
+                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-2.jpg">
                     <div class="caption sfr caption-main" data-x="center" data-y="150" data-speed="900" data-start="0" data-easing="easeOutBack">
                         <div class="header-item">
                             <div>
@@ -75,11 +80,11 @@
                     </div>
                 </li>
                 <li data-transition="fade" data-slotamount="1" data-masterspeed="300" data-thumb="images/thumbs/thumb6.jpg">
-                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-3.jpg" >
+                    <img src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_background-conference-3.jpg">
                     <div class="caption sfr caption-main" data-x="center" data-y="300" data-speed="900" data-start="0" data-easing="easeOutBack">
                         <div class="header-item">
                             <div>
-                                <h1>未完待续<br/><br/>敬请关注...</h1>
+                                <h1>未完待续<br /><br />敬请关注...</h1>
                             </div>
                         </div>
                     </div>
@@ -109,7 +114,7 @@
             </div>
         </div>
     </div>
-    
+
     <div class="features">
         <div class="features-container">
             <div class="container">
@@ -284,6 +289,46 @@
                             </div>
                         </div>
                     </div>
+                    <div class="tab-pane fade in" id="tab-2">
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="images/island.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">禁闭岛</p>
+                                <p class="company">本片根据美国小说家丹尼斯·勒翰（Dennis Lehane）的同名小说改编</p>
+                                <p class="title">shutter Island</p>
+                                <p class="times">推荐指数:<span class="times_num">5</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 禁闭岛</h4>
+                                    <p>1954年，联邦警官泰迪（莱昂纳多·迪卡普里奥Leonardo DiCaprio 饰）和搭档查克（马克·鲁弗洛Mark Ruffalo 饰）乘船来到波士顿附近的禁闭岛精神病犯监狱调查一桩离奇失踪案。手刃亲生骨肉的女犯蕾切尔（艾米莉·莫迪默Emily Mortimer 饰）从戒备森严的牢室神秘逃脱，藏匿于孤岛深处。泰迪怀疑监狱的主治精神病医师约翰·考利（本·金斯利Ben Kingsley 饰）有意隐瞒内情，并向查克透露他上岛的真实目的其实是寻找当年纵火烧死他妻子德洛丽丝（米歇尔·威廉姆斯Michelle Williams 饰）的管理员，并揭露美国政府利用精神病犯人进行人体科学实验的罪行。但随着调查的逐渐深入，真相却变得越来越扑朔迷离……</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row speaker">
+                            <div class="col-md-2 col-sm-2 image text-center">
+                                <div class="image-box">
+                                    <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="images/butterfly.jpg" />
+                                </div>
+                            </div>
+                            <div class="col-md-7 col-sm-7">
+                                <p class="name">蝴蝶效应</p>
+                                <p class="company">制作人：艾什顿·库彻Ashton Kutcher；Chris Bender；Cale Boyter；A.J. Dix；托比·艾默里奇Toby Emmerich；Johnny </p>
+                                <p class="title">The Butterfly Effect</p>
+                                <p class="times">推荐指数:<span class="times_num">5</span></p>
+                            </div>
+                            <div class="col-md-3 col-sm-3">
+                                <div class="about">
+                                    <h4>关于 蝴蝶效应</h4>
+                                    <p>伊万（艾什顿·库奇 Ashton Kutcher 饰）曾经有一个糟糕的童年，因为他行为闯下了大祸，令他童年充满不堪回忆的往事。而事实上，他确实只是依稀记得一点可怕的情景，这些情景一直纠缠着他的正常生活。伊万接受心理学家建议，把琐碎生活记在记事本里，却偶然发现通过记事本回到过去。  这时他才清楚记起，童年时候的自己做了那么多的错事。他幻想着用现在的意识，潜入童年的身体，去弥补种种过失给人们带来的伤害，尤其是希望与当年暗恋的凯西最终走回一起。然而他一次次的跨越时空的更改，只能越来越招致现实世界的不可救药。</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -304,10 +349,10 @@
             <div class="col-md-10 col-md-offset-2">
                 <table class="table table-hover table-bordered">
                     <thead>
-                    <tr>
-                        <th colspan="2">分类</th>
-                        <th colspan="2">内容</th>
-                    </tr>
+                        <tr>
+                            <th colspan="2">分类</th>
+                            <th colspan="2">内容</th>
+                        </tr>
                     </thead>
                     <tbody>
                         <tr>
@@ -333,13 +378,15 @@
                         </tr>
                         <tr>
                             <td>webapp</td>
-                            <td colspan="2">了解响应式设计的基本原则与实现，熟练使用zepto，jquery
+                            <td colspan="2">
+                                了解响应式设计的基本原则与实现，熟练使用zepto，jquery
                                 mobile等移动平台的界面框架，了解phonegap的环境配置和使用技巧，能在移动开发环境中(ios Xcode)进行webapp的开发
                             </td>
                         </tr>
                         <tr>
                             <td>nodejs</td>
-                            <td colspan="2">了解nodejs的环境布置，开发和调试的整体流程，熟悉express，了解socket.io，熟练使用sublime和webstorm等工具进行相关开发，了解npm的使用，了解coffeescript，less等基于nodejs的前端预编译语言使用,了解grunt的自动构建工具的用法
+                            <td colspan="2">
+                                了解nodejs的环境布置，开发和调试的整体流程，熟悉express，了解socket.io，熟练使用sublime和webstorm等工具进行相关开发，了解npm的使用，了解coffeescript，less等基于nodejs的前端预编译语言使用,了解grunt的自动构建工具的用法
                             </td>
                         </tr>
 
@@ -350,12 +397,14 @@
                         </tr>
                         <tr>
                             <td>database</td>
-                            <td colspan="2">熟悉MYSQL数据库开发，配置、维护、性能优化，了解mongodb和sqlite的一般使用
+                            <td colspan="2">
+                                熟悉MYSQL数据库开发，配置、维护、性能优化，了解mongodb和sqlite的一般使用
                             </td>
                         </tr>
                         <tr>
                             <td>libs&amp;framework</td>
-                            <td colspan="2">了解thinkPHP，Yii等PHP经典MVC框架的使用和配置，了解wordpress的基本开发
+                            <td colspan="2">
+                                了解thinkPHP，Yii等PHP经典MVC框架的使用和配置，了解wordpress的基本开发
                             </td>
                         </tr>
 
@@ -366,7 +415,8 @@
                         </tr>
                         <tr>
                             <td>libs&amp;framework</td>
-                            <td colspan="2">了解HTTP协议，能基于Django进行相关web开发
+                            <td colspan="2">
+                                了解HTTP协议，能基于Django进行相关web开发
                             </td>
                         </tr>
                     </tbody>
@@ -424,59 +474,59 @@
                 <ul>
                     <li class="col-md-3 col-sm-3">
                         <a href="https://github.com/" target="_blank">
-                            <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_github.jpg" />
+                            <img class="lazy" width="100%" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_github.jpg" />
                         </a>
                     </li>
                     <li class="col-md-3 col-sm-3">
                         <a href="http://www.acfun.tv/" target="_blank">
-                            <img class="lazy height122" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_acfun.jpg" />
+                            <img class="lazy height122" width="100%" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_acfun.jpg" />
                         </a>
                     </li>
                     <li class="col-md-3 col-sm-3">
                         <a href="http://www.dytt8.net/" target="_blank">
-                            <img class="lazy height122" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_dianying.gif" />
+                            <img class="lazy height122" width="100%" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_dianying.gif" />
                         </a>
                     </li>
                     <li class="col-md-3 col-sm-3">
                         <a href="http://jquery.com/" target="_blank">
-                            <img class="lazy" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://taikongfeizhu.com/assets/img/jqschool.jpg" />
+                            <img class="lazy" width="100%" src="http://images.cnblogs.com/cnblogs_com/nobody1/547109/o_load.gif" data-original="http://taikongfeizhu.com/assets/img/jqschool.jpg" />
                         </a>
                     </li>
                 </ul>
             </div>
         </div>
         <div class="foot">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-5">
-                    <h2>联系方式</h2>
-                    <address>
-                        <i class="icon icon-time"></i>
-                        <strong>当前版本</strong>
-                        <p>Beta V 1.0</p>
-                    </address>
-                    <address>
-                        <i class="icon icon-home"></i>
-                        <strong>常居地址</strong>
-                        <p>广州天河区体育西路</p>
-                    </address>
-                    <address>
-                        <i class="icon icon-mobile-phone"></i>
-                        <strong>联系方式</strong>
-                        <p>微博：@nobody005</p>
-                        <p>邮箱：411298027@qq.com</p>
-                    </address>
-                </div>
-                <div class="col-md-7">
-                    <iframe width="100%" height="350px" frameborder="0" scrolling="no" src="http://jsbin.com/nobodymap"></iframe>
-                    <address class="showmap">
-                        <i class="icon icon-map-marker"></i>
-                        <a href="http://j.map.baidu.com/p3sQp" target="_blank" class="btn btn-grey">在百度地图上显示</a>
-                    </address>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <h2>联系方式</h2>
+                        <address>
+                            <i class="icon icon-time"></i>
+                            <strong>当前版本</strong>
+                            <p>Beta V 1.0</p>
+                        </address>
+                        <address>
+                            <i class="icon icon-home"></i>
+                            <strong>常居地址</strong>
+                            <p>广州天河区体育西路</p>
+                        </address>
+                        <address>
+                            <i class="icon icon-mobile-phone"></i>
+                            <strong>联系方式</strong>
+                            <p>微博：@nobody005</p>
+                            <p>邮箱：411298027@qq.com</p>
+                        </address>
+                    </div>
+                    <div class="col-md-7">
+                        <iframe width="100%" height="350px" frameborder="0" scrolling="no" src="http://jsbin.com/nobodymap"></iframe>
+                        <address class="showmap">
+                            <i class="icon icon-map-marker"></i>
+                            <a href="http://j.map.baidu.com/p3sQp" target="_blank" class="btn btn-grey">在百度地图上显示</a>
+                        </address>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
     </div>
     <div class="footer-bottom">
         <div class="container">
@@ -522,10 +572,10 @@
     <script src="http://cdn.bootcss.com/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
     <script src="http://cdn.bootcss.com/jquery-scrollTo/1.4.7/jquery.scrollTo.min.js"></script>
     <script src="http://files.cnblogs.com/nobody1/jquery.localscroll-1.2.7-min.js"></script>
-    <script src="http://files.cnblogs.com/nobody1/infine.js"></script>
-     <script type="text/javascript">
-          var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
-          document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Feb69e6469eea38aa518bc59d627b5e4b' type='text/javascript'%3E%3C/script%3E"));
+    <script src="scripts/infine.js"></script>
+    <script type="text/javascript">
+        var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+        document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3Feb69e6469eea38aa518bc59d627b5e4b' type='text/javascript'%3E%3C/script%3E"));
     </script>
 
 </body>
