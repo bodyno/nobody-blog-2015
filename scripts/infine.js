@@ -46,7 +46,7 @@
     setTimeout(function () {
         $("#loading-start").fadeOut(1000);
         $("html").niceScroll(niceScrollOpt);
-    }, 1);
+    }, 3000);
 
     $('.parallax').parallax("50%", 1);
 
