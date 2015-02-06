@@ -12,8 +12,4 @@ nobody's blog
 #git提交3
 #git提交4
 #git提交5
-<<<<<<< HEAD
 #git提交6
-=======
-#git提交6
->>>>>>> b60547aa024c937839f0a49bfeedc306d220608e
