@@ -16,3 +16,4 @@ nobody's blog
 燃烧吧 少年
 
     I'm coming!!!
+    `nice code`
