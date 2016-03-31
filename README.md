@@ -1,28 +1,14 @@
-##呵呵
-##呵呵blog
+#Personal Blog
 ====
 
-nobody's blog
+Nobody's blog
 
 
-这是一个自己搭建的博客!
-呵呵,大家帮忙顶一下,
-地址是az8321550.github.io/blog
-#git提交
-提交吧提交吧
-提交吧提交吧
-提交吧提交吧
-提交吧提交吧
-燃烧吧 少年
+It's a blog that belongs myself.
+So if you like.
+Just click star.
+I'd like to share some new stuff to you.Hehe.
+[Nobody's blog](http://az8321550.github.io/)
 
     I'm coming!!!
     `nice code`
-[blog](http://az8321550.github.io/)
-
-[blog](http://az8321550.github.io/)
-
-[blog](http://az8321550.github.io/)
-
-[blog](http://az8321550.github.io/)
-
-[blog](http://az8321550.github.io/)
