@@ -1,4 +1,4 @@
-#[Deprecated]Personal Blog
+#[Deprecated] Personal Blog
 
 Nobody's blog
 
